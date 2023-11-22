@@ -4,26 +4,74 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
 }
 
 body{
-    
+    width: 100vw;
+}
+
+header{
+    width: 100vw;
+    background-color: black;
+}
+
+header > #menu{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.13);
+    width: fit-content;
+}
+
+header #menu ul{
+    color:white;
+    list-style-type: none;
+    padding: 4px;
+}
+
+header #menu ul li{
+    width: fit-content;
+    color: white;
+}
+
+header #menu ul li:hover{
+    background-color: rgba(255, 255, 255, 0.438);
+}
+
+header nav ul li a{
+    color: white;
+}
+
+header #menu ul li{
+    font-size: medium;
+    margin: 5px;
 }
 
 
-
 header > h1{
-    text-align: center;
-    background-color: black;
     color: white;
+    display: inline;
+    float: right;
+}
+
+header > #burguer{
+    color: white;
+    padding: 10px;
+    
+}
+
+header > #burguer:hover{
+    border-radius:10px 10px;
+    background-color: rgba(255, 255, 255, 0.26);
+    border: 1px solid white;
+    
+
 }
 
 body{
     background-image: url(../imagens/spider.jpg);
-    height: 100vh;
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: cover;
+    overflow: hidden;
 }
 
 body > img{
@@ -42,4 +90,87 @@ section > h2{
     text-align: center;
     color: white;
     background-color: rgba(0, 0, 0, 0.781);
+    display: block;
+    margin: auto;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.514);
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 0px 0px 5px black;
 }
+
+#user{
+    background: rgba(255, 255, 255, 0.418);
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+
+#user:hover{
+    border: 1px solid black;
+}
+
+input#nome{
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.589);
+    border-radius: 20px;
+    color: white;
+    width: 78vw;
+    
+}
+
+input#nome:hover{
+    background-color:rgba(0, 0, 0, 0.699);
+}
+
+#box{
+    background: rgba(255, 255, 255, 0.418);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#box:hover{
+    border: 1px solid black;
+}
+
+input#email{
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.589);
+    border-radius: 20px;
+    width: 78vw;
+    color: white;
+}
+
+input#email:hover{
+    background-color:rgba(0, 0, 0, 0.699);
+}
+
+input#enviar{
+    padding: 10px;
+    background-color: rgba(46, 45, 45, 0.637);
+    color: white;
+    font-size: larger;
+    width: 200px;
+    margin: auto;
+    display: block;
+    margin-top: 5px;
+}
+
+input#enviar:hover{
+    background-color: rgba(46, 45, 45, 0.76);
+}
+
+section > p{
+    text-align: center;
+    color:blue;
+    background-color: rgba(255, 255, 255, 0.527);
+    width: fit-content;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+section > #psdesktop{
+    display: none;
+}
+
