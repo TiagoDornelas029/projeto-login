@@ -122,7 +122,10 @@ input#nome{
     border-radius: 20px;
     color: white;
     width: 78vw;
-    
+}
+
+input#nome:focus-within{
+    border: 5px solid white;
 }
 
 input#nome:hover{
@@ -151,6 +154,10 @@ input#email{
 
 input#email:hover{
     background-color:rgba(0, 0, 0, 0.699);
+}
+
+input#email:focus-within{
+    border: 5px solid white;
 }
 
 input#enviar{
