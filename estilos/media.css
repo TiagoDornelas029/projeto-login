@@ -78,10 +78,33 @@ section > #psdesktop{
         margin: auto;
     }
 
+    input#nome{
+        width: 42vw;
+    }
+
+    input#email{
+        width:42vw;
+    }
+
     
     div#enviardiv{
         border: 1px solid black;
-        background-color: blue;
+        margin: auto;
+        margin-top:10px;
+    }
+
+}
+
+@media screen and (min-width:1200px){
+    section > form{
+        width: 100%;
+        
+        
+    }
+
+    section > p {
+        margin-top: 50px;
         margin: auto;
     }
+    
 }

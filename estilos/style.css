@@ -71,7 +71,9 @@ body{
     background-image: url(../imagens/spider.jpg);
     background-position: top center;
     background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
+    
 }
 
 body > img{
@@ -84,6 +86,7 @@ body > img{
 section{
     margin: auto;
     width: 90vw;
+    height: 100vh;
 }
 
 section > h2{
@@ -109,6 +112,10 @@ section > h2{
     border: 1px solid black;
 }
 
+section > form{
+    width: fit-content;
+}
+
 input#nome{
     height: 40px;
     background-color: rgba(0, 0, 0, 0.589);
@@ -130,6 +137,8 @@ input#nome:hover{
 
 #box:hover{
     border: 1px solid black;
+
+
 }
 
 input#email{
@@ -157,6 +166,7 @@ input#enviar{
 
 div#enviardiv{
     margin: auto;
+    margin-top:10px;
 }
 
 input#enviar:hover{
@@ -165,13 +175,25 @@ input#enviar:hover{
 
 section > p{
     text-align: center;
-    color:blue;
-    background-color: rgba(255, 255, 255, 0.527);
+    color:black;
+    background-color: rgba(255, 255, 255, 0);
     width: fit-content;
     display: block;
     margin: auto;
     margin-top: 5px;
     padding: 5px;
+}
+
+section > p > a{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+section > p > a:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(1, 66, 66);
 }
 
 section > #psdesktop{
