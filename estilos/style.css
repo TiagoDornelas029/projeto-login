@@ -155,6 +155,10 @@ input#enviar{
     margin-top: 5px;
 }
 
+div#enviardiv{
+    margin: auto;
+}
+
 input#enviar:hover{
     background-color: rgba(46, 45, 45, 0.76);
 }
